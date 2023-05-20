@@ -1,5 +1,5 @@
 name: custom_analysis
-version: 0.1.0+1
+version: 0.1.0+2
 description: Custom set of Lint rules for Flutter
 publish_to: none
 
