@@ -53,7 +53,7 @@ To suppress a specific lint rule for an entire project, modify `analysis_options
 include: package:custom_analysis/analysis_options.yaml
 linter:
   rules:
-    public_member_api_docs: false
+    public_member_api_docs: true
 ```
 
 [vgv_linter]: https://github.com/VeryGoodOpenSource/very_good_analysis
