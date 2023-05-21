@@ -9,9 +9,19 @@ This package provides lint rules for Dart and Flutter which I usually use.
 To use the lints, add as a dev dependency in your `pubspec.yaml`:
 
 ```yaml
+custom_analysis:
  git:
-    url:https://github.com/bytebas/custom_analysis.git
+    url: https://github.com/bytebas/custom_analysis.git
     ref: main
+```
+
+You can also target to a specific release tag:
+
+```yaml
+custom_analysis:
+ git:
+    url: https://github.com/bytebas/custom_analysis.git
+    ref: 0.1.0+2
 ```
 
 Then, add an include in `analysis_options.yaml`:
